@@ -1,0 +1,118 @@
+Data Quality Findings
+Dataset Size
+Total Records: 9994
+
+
+Insight:
+
+Dataset contains 9,994 transactions available for analysis.
+Missing Data
+Profit NULL Values: 1
+
+Action Taken:
+The single NULL Profit record was retained as it represented only 0.01% of the dataset and did not materially impact the analysis.
+
+Insight:
+
+One record contains a missing Profit value.
+Data quality issue identified during import validation.
+Executive KPI
+Total Sales Revenue
+$2,297,200.86
+
+Insight:
+
+The company generated approximately $2.30 million in sales.
+Category Sales Analysis
+Category		Sales
+Technology	$836K
+Furniture		$742K
+Office Supplies	$719K
+
+Insights:
+
+Technology is the highest revenue-generating category.
+Furniture ranks second in sales.
+Office Supplies ranks third in sales.
+Category Profit Analysis
+Category		Profit
+Technology	$145K
+Office Supplies	$122K
+Furniture		$19K
+
+Insights:
+
+Technology generates the highest profit.
+Office Supplies delivers strong profitability despite lower sales than Furniture.
+Furniture contributes very little profit relative to its sales volume.
+Profit Margin Analysis
+Category		Margin
+Technology	17.40%
+Office Supplies	17.04%
+Furniture		2.54%
+Most Important Insight So Far
+
+Furniture is the standout finding.
+
+Furniture Sales   = $742K
+Furniture Profit  = $19K
+Margin               = 2.54%
+
+Business interpretation:
+
+Furniture generates substantial revenue but very low profit margins. This may indicate excessive discounting, high operational costs, or inefficient pricing strategies.
+
+Positive Insight
+Technology
+
+Business interpretation:
+
+Technology is the strongest category, leading in revenue, profit, and profit margin. It appears to be the company's most valuable business segment.
+
+Regional Sales Analysis
+-----------------------
+West Region generated the highest sales ($725K).
+East Region generated the second highest sales ($679K).
+South Region generated the lowest sales ($392K).
+
+Regional Profit Analysis
+------------------------
+West Region generated the highest profit ($108K).
+East Region generated the second highest profit ($92K).
+South generated higher profit than Central despite having lower sales, indicating better profitability.
+
+Regional Margin Analysis
+------------------------
+West Region achieved the highest profit margin (14.94%).
+East Region achieved the second highest margin (13.48%).
+Central Region generated over $501K in sales but only a 7.92% profit margin, making it the least efficient region.
+
+Sub-Category Sales Analysis
+---------------------------
+Phones generated the highest revenue ($330K).
+Chairs generated the second highest revenue ($328K).
+Storage, Tables, and Binders are also major contributors to sales.
+The top 5 sub-categories account for a significant portion of total revenue.
+
+Sub-Category Profit Analysis
+----------------------------
+Copiers generated the highest profit ($55.6K).
+Phones generated both high sales and high profit.
+Tables generated over $206K in revenue but lost approximately $17.3K.
+Bookcases and Supplies also generated negative profit.
+Negative-profit sub-categories require further investigation into pricing, discounting, or operational costs.
+
+Discount Impact Analysis
+------------------------
+Tables have an average discount of 26.13% and generate a loss of $17.3K.
+Bookcases have an average discount of 21.11% and generate a loss of $3.5K.
+High discounts appear to contribute to losses in some sub-categories.
+However, Binders maintain strong profitability despite the highest average discount (37.23%), suggesting that additional factors influence profitability.
+
+Project Summary
+---------------
+The analysis identified Technology as the highest-performing category in terms of sales, profit, and profit margin.
+Furniture generated high sales but significantly lower profit margins, indicating potential pricing or cost-related challenges.
+The West region was the strongest-performing region in both sales and profit.
+Sub-category analysis revealed that Copiers generated the highest profit, while Tables generated substantial revenue but incurred the largest loss.
+The findings demonstrate how SQL and Power BI can be used to identify revenue drivers, profitability trends, and business improvement opportunities.
