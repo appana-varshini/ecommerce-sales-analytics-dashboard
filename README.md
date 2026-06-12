@@ -80,4 +80,4 @@ Records: 9,994
 
 ## Dashboard Preview
 
-![Dashboard](Documentation/dashboard.png)
+![Dashboard](Documentation/dashboard.PNG)
